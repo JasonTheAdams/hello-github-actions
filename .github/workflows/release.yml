@@ -15,7 +15,7 @@ jobs:
       - name: Generate the plugin artifact
         uses: skx/github-action-build@master
         with:
-          builder: ./github/prerelease.sh
+          builder: .github/prerelease.sh
 
       - name: Upload the artifact to release
         uses: skx/github-action-publish-binaries@master
