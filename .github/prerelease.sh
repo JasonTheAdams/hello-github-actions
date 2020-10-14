@@ -17,5 +17,5 @@ rm -rf .github
 
 echo "Zipping stuff"
 
-zip --junk-paths -r files.zip ./*
+zip -r files.zip ./*
 
