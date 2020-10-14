@@ -1,5 +1,6 @@
 #!/bin/sh -l
 
+apt-get update
 apt-get install php libapache2-mod-php zip unzip -y
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
